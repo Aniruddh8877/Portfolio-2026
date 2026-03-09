@@ -7,14 +7,14 @@ export default function Hero() {
                <div className="w-full relative z-10 flex flex-col items-center">
                     {/* Massive Typography - scaled to match width visually */}
                     <h1 className="w-full flex flex-col items-center justify-center font-heading font-extrabold leading-[0.85] uppercase tracking-tighter">
-                         <span className="block text-[15.5vw] md:text-[14vw] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
+                         <span className="block text-[14.5vw] md:text-[14vw] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
                               FULL-STACK
                          </span>
-                         <span className="block text-[18vw] md:text-[16.5vw] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
+                         <span className="block text-[16vw] md:text-[16.5vw] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
                               CREATIVE
                          </span>
                          <span
-                              className="block text-[16.5vw] md:text-[15.5vw] whitespace-nowrap text-center transform scale-x-[1.05]"
+                              className="block text-[14.5vw] md:text-[15.5vw] whitespace-nowrap text-center transform scale-x-[1.05]"
                               style={{
                                    WebkitTextStroke: '1px rgba(255, 255, 255, 0.4)',
                                    color: 'transparent',
