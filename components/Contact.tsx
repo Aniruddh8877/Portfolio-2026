@@ -10,10 +10,10 @@ export default function Contact() {
           <section className="py-24 px-6 relative overflow-hidden" id="contact">
                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/10 rounded-full blur-[120px] -z-10"></div>
                <div className="container mx-auto">
-                    <div className="max-w-5xl mx-auto glass-card rounded-[3rem] p-8 md:p-16 grid lg:grid-cols-2 gap-16">
+                    <div className="max-w-5xl mx-auto glass-card rounded-3xl md:rounded-[3rem] p-6 sm:p-8 md:p-16 grid lg:grid-cols-2 gap-10 md:gap-16">
                          <div>
-                              <h2 className="text-5xl font-heading font-extrabold mb-6">Let's build something <span className="text-accent">great</span> together.</h2>
-                              <p className="text-xl text-gray-400 mb-10">Got a project in mind? Or just want to say hi? My inbox is always open.</p>
+                              <h2 className="text-4xl md:text-5xl font-heading font-extrabold mb-6">Let's build something <span className="text-accent">great</span> together.</h2>
+                              <p className="text-lg md:text-xl text-gray-400 mb-10">Got a project in mind? Or just want to say hi? My inbox is always open.</p>
                               <div className="space-y-6">
                                    <a className="flex items-center gap-4 group" href="mailto:aniruddhsharma8877@gmail.com">
                                         <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent transition-colors">
@@ -23,7 +23,7 @@ export default function Contact() {
                                         </div>
                                         <div>
                                              <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Email me</p>
-                                             <p className="text-lg font-medium">aniruddhsharma8877@gmail.com</p>
+                                             <p className="text-base md:text-lg font-medium break-all">aniruddhsharma8877@gmail.com</p>
                                         </div>
                                    </a>
                                    <div className="flex items-center gap-6 pt-4">

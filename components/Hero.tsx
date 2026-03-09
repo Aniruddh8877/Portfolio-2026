@@ -1,31 +1,31 @@
 export default function Hero() {
      return (
           <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-24 md:pt-32 pb-16" id="hero">
-               {/* Background glow behind text */}
+
                <div className="absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[400px] bg-[#6366f1]/20 blur-[120px] rounded-full -z-10 animate-pulse-slow"></div>
 
                <div className="w-full relative z-10 flex flex-col items-center">
-                    {/* Massive Typography - scaled to match width visually */}
+
                     <h1 className="w-full flex flex-col items-center justify-center font-heading font-extrabold leading-[0.85] uppercase tracking-tighter">
-                         <span className="block text-[14.5vw] md:text-[14vw] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
+                         <span className="block text-[12vw] md:text-[14vw] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
                               FULL-STACK
                          </span>
-                         <span className="block text-[16vw] md:text-[16.5vw] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
+                         <span className="block text-[13.5vw] md:text-[16.5vw] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
                               CREATIVE
                          </span>
                          <span
-                              className="block text-[14.5vw] md:text-[15.5vw] whitespace-nowrap text-center transform scale-x-[1.05]"
+                              className="block text-[12.5vw] md:text-[15.5vw] whitespace-nowrap text-center transform scale-x-[1.05]"
                               style={{
                                    WebkitTextStroke: '1px rgba(255, 255, 255, 0.4)',
                                    color: 'transparent',
-                                   marginTop: '-2vw' // Slight overlap typical in these bold typography designs
+                                   marginTop: '-2vw'
                               }}
                          >
                               DEVELOPER
                          </span>
                     </h1>
 
-                    {/* Info Section */}
+
                     <div className="w-full max-w-[800px] mx-auto mt-12 md:mt-24 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10 px-6">
                          <div className="shrink-0 relative">
                               <div className="w-56 h-56 md:w-64 md:h-64 lg:w-[280px] lg:h-[280px] rounded-xl overflow-hidden border border-white/20 bg-zinc-900 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
