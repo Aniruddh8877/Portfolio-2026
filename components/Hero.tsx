@@ -7,14 +7,14 @@ export default function Hero() {
                <div className="w-full relative z-10 flex flex-col items-center">
 
                     <h1 className="w-full flex flex-col items-center justify-center font-heading font-extrabold leading-[0.85] uppercase tracking-tighter px-4">
-                         <span className="block text-[clamp(2.5rem,9vw,8rem)] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
+                         <span className="block text-[clamp(1.8rem,8vw,8rem)] text-white whitespace-nowrap text-center transform scale-x-[1.05]">
                               FULL-STACK
                          </span>
-                         <span className="block text-[clamp(3.5rem,13vw,11rem)] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
+                         <span className="block text-[clamp(2.5rem,11vw,11rem)] whitespace-nowrap animate-gradient bg-gradient-to-r from-[#6b81ff] via-[#b65aff] to-[#6b81ff] bg-clip-text text-transparent text-center transform scale-x-[1.02]">
                               CREATIVE
                          </span>
                          <span
-                              className="block text-[clamp(3rem,11vw,9.5rem)] whitespace-nowrap text-center transform scale-x-[1.05]"
+                              className="block text-[clamp(2.2rem,9.5vw,9.5rem)] whitespace-nowrap text-center transform scale-x-[1.05]"
                               style={{
                                    WebkitTextStroke: '2px rgba(255, 255, 255, 0.4)',
                                    color: 'transparent',

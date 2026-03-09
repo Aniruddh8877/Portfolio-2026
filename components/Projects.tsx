@@ -4,8 +4,8 @@ export default function Projects() {
                <div className="container mx-auto">
                     <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
                          <div>
-                              <h2 className="text-[clamp(3rem,10vw,5rem)] font-heading font-extrabold leading-none">FEATURED</h2>
-                              <h2 className="text-[clamp(3rem,10vw,5rem)] font-heading font-extrabold text-outline leading-none">PROJECTS</h2>
+                              <h2 className="text-[clamp(2rem,8vw,5rem)] font-heading font-extrabold leading-none">FEATURED</h2>
+                              <h2 className="text-[clamp(2rem,8vw,5rem)] font-heading font-extrabold text-outline leading-none">PROJECTS</h2>
                          </div>
                          <p className="text-gray-400 max-w-xs text-right hidden md:block">
                               A selection of my best work, ranging from hotel management to complex e-commerce panels.
