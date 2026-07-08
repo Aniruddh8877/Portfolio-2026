@@ -18,7 +18,7 @@ export default function About() {
                                         </li>
                                         <li className="flex gap-4">
                                              <span className="text-accent font-bold">02</span>
-                                             <p>Currently shaping digital experiences as a <span className="text-white">Developer at WINNEXCODE IT Pvt. Ltd.</span></p>
+                                             <p>Currently shaping IT experiences as a <span className="text-white">Analyst Trainee at Cognizant</span></p>
                                         </li>
                                         <li className="flex gap-4">
                                              <span className="text-accent font-bold">03</span>
@@ -32,7 +32,7 @@ export default function About() {
                                    Crafting <span className="text-outline italic">Future</span> <br /> Digital Solutions.
                               </h2>
                               <p className="text-xl text-gray-400 leading-relaxed max-w-xl">
-                                   I specialize in bridges the gap between complex backend logic and pixel-perfect frontend design. My goal is to build software that isn't just functional, but an experience.
+                                   I specialize in bridging the gap between complex backend logic and pixel-perfect frontend design. My goal is to build software that isn't just functional, but an experience.
                               </p>
                          </div>
                     </div>

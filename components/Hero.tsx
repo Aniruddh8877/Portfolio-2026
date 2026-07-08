@@ -31,8 +31,8 @@ export default function Hero() {
                               <div className="w-56 h-56 md:w-64 md:h-64 lg:w-[280px] lg:h-[280px] rounded-xl overflow-hidden border border-white/20 bg-zinc-900 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
                                    <img
                                         alt="Aniruddh Sharma Portrait"
-                                        className="w-full h-full object-cover grayscale"
-                                        src="/home2.png"
+                                        className="w-full h-full object-cover "
+                                        src="/home3.png"
                                    />
                               </div>
                          </div>
